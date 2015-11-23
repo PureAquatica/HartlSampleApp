@@ -28,5 +28,6 @@ params = {
 
 #4  Calling that hash will replace the value of the old be with the value of the new b.
 # http://docs.ruby-lang.org/en/2.0.0/Hash.html
+# Git is really pisssing me off.
 >>  { "a" => 100, "b" => 200 }.merge({ "b" => 300 })
 => {"a"=>100, "b"=>300}
